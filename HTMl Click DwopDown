@@ -107,3 +107,20 @@ style//
   }
 }
 
+
+
+
+
+
+
+function openNav() {
+  document.getElementById("mySidenavv").style.width = "300px";
+}
+
+function closeNavv() {
+  document.getElementById("mySidenavv").style.width = "0";
+}
+
+
+
+
