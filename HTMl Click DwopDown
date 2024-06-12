@@ -1,0 +1,92 @@
+<div style="display: flex;flex-direction: column; background: black;">
+
+                                <!-- Button 1 to toggle the first list -->
+                                <button class="buttons" style="margin: 0px;" onclick="toggleList('myList1')">Profile<i class="bi bi-caret-down"></i> <!-- Down arrow icon --></button>
+                              <div style="width: 100%;height:15px;"></div>
+                                <!-- List 1 to be displayed -->
+                                <ul class="list" id="myList1" style="background-color: black;">
+                                    <li class="list-item">Home</li>
+                                    <li class="list-item">Led Mirror</li>
+                                    <li class="list-item">Mirror cabinet</li>
+                                    <li class="list-item">Corner SHelf</li>
+                                    <li class="list-item">Magnetic board</li>
+                                    <li class="list-item">Glass frames</li>
+                                </ul>
+
+                                <!-- Button 2 to toggle the second list -->
+                                <button class="buttons" style="margin: 0px;" onclick="toggleList('myList2')">Products<i class="bi bi-caret-down"></i></button>
+                                <div style="width: 100%;height:15px;"></div>
+                                <!-- List 2 to be displayed -->
+                                <ul class="list" id="myList2" style="background-color: black;">
+                                    <li class="list-item">Home</li>
+                                    <li class="list-item">Led Mirror</li>
+                                    <li class="list-item">Mirror cabinet</li>
+                                    <li class="list-item">Corner SHelf</li>
+                                    <li class="list-item">Magnetic board</li>
+                                    <li class="list-item">Glass frames</li>
+                                </ul>
+
+                                <!-- Button 3 to toggle the third list -->
+                                <button class="buttons" style="margin: 0px;" onclick="toggleList('myList3')">Products</span></button>
+                                <div style="width: 100%;height:15px;"></div>
+                                <!-- List 3 to be displayed -->
+                                <!-- <ul class="list" id="myList3">
+                                    <li class="list-item">Login</li>
+                                    <li class="list-item">Order History</li>
+                                    <li class="list-item">My Wishlist
+                                        <li class="list-item">Track Order
+                                        </li>
+                                </ul> -->
+                                 <button class="buttons" style="margin: 0px;" onclick="toggleList('myList3')">Wishlist</span></button>
+                               <div style="width: 100%;height:15px;"></div>
+                            </div>
+
+
+
+style//
+
+
+.sidenavv {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  width: 300px;
+  background-color: #000000;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 23px;
+}
+
+.sidenavv a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenavv a:hover {
+  color: #f1f1f1;
+}
+
+.sidenavv .closebtn {
+  position: absolute;
+  top: 0;
+  right: 6px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenavv {
+    padding-top: 15px;
+  }
+  .sidenavv a {
+    font-size: 18px;
+  }
+}
+
